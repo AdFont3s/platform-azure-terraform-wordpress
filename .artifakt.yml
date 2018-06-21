@@ -1,0 +1,59 @@
+title: Managed Wordpress on Azure
+type: free
+description: Wordpress on webApp with mysql managed services.
+cloud_provider: Azure
+build_engine: terraform
+available_regions:
+ - eastasia
+ - southeastasia
+ - centralus
+ - eastus
+ - eastus2
+ - westus
+ - northcentralus
+ - southcentralus
+ - northeurope
+ - westeurope
+ - japanwest
+ - japaneast
+ - brazilsouth
+ - australiaeast
+ - australiasoutheast
+ - southindia
+ - centralindia
+ - westindia
+ - canadacentral
+ - canadaeast
+ - uksouth
+ - ukwest
+ - westcentralus
+ - westus2
+ - koreacentral
+ - koreasouth
+ - francecentral
+ - francesouth
+ - australiacentral
+ - australiacentral2
+image: https://assets.artifakt.io/artifacts/logo-wordpress.png
+category: cmd
+main_language: php
+license:
+   code: mit
+   name: MIT
+tags:
+  - Wordpress
+  - Azure
+  - cms
+  - managed services
+infrastructure:
+  diagram: https://assets.artifakt.io/artifacts/artifact-demo-app-aws.png
+  build_time: 390 #seconds
+  cost_estimation:
+    monthly_price: 122,43  #in dollars per month
+    details: Price calculated using managed service mysql gen4 B2 instance and hosting plan basic .
+outputs:
+  -
+    code: public_url
+    name: public URL
+    description: Fully qualified URL
+    category: url

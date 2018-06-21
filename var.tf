@@ -1,0 +1,1 @@
+variable "ARM_REGION" {}
