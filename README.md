@@ -8,18 +8,21 @@ This project deploy two layers. First one, the mysql instance (which running on 
 
 Fill your credentials and variables values in the .env file then run this command:
 
->. ./.env 
+>. ./.env
 
 Then run Terraform using this command:
 
-to init and retrieve the provider:
+Init and retrieve the provider:
 > terraform init
 
-to apply and deploy the application:
-
+Apply and deploy the application:
 > terraform apply
 
-Our engine will execute the same kind of instructions.
+The Artifakt engine will execute similar instructions.
+
+Get any available output using:
+> terraform output
+
 
 ## Any trouble?
 If you have any questions or trouble, you can create an issue on the GitHub repository.
