@@ -24,5 +24,6 @@ Get any available output using:
 > terraform output
 
 
+
 ## Any trouble?
-If you have any questions or trouble, you can create an issue on the GitHub repository.
+If you have any questions or encounter any problems, you can create an issue on the GitHub repository.
