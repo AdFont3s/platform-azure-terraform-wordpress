@@ -35,7 +35,7 @@ available_regions:
  - australiacentral
  - australiacentral2
 image: https://assets.artifakt.io/artifacts/logo-wordpress.png
-category: cmd
+category: cms
 main_language: php
 license:
    code: mit
