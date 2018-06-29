@@ -1,7 +1,7 @@
 title: Managed Wordpress on Azure
 type: free
 description: Wordpress on webApp with mysql managed services.
-cloud_provider: Azure
+cloud_provider: azure
 build_engine: terraform
 available_regions:
  - eastasia
