@@ -35,7 +35,7 @@ available_regions:
  - australiacentral
  - australiacentral2
 image: https://assets.artifakt.io/artifacts/logo-wordpress.png
-category: cmd
+category: cms
 main_language: php
 license:
    code: mit
@@ -49,7 +49,7 @@ infrastructure:
   diagram: https://assets.artifakt.io/artifacts/artifact-demo-app-aws.png
   build_time: 390 #seconds
   cost_estimation:
-    monthly_price: 122,43  #in dollars per month
+    monthly_price: 122.43  #in dollars per month
     details: Price calculated using managed service mysql gen4 B2 instance and hosting plan basic .
 outputs:
   -
