@@ -1,4 +1,4 @@
-# Artifact Wordpress (Azure Terraform)
+# Platform Wordpress (Azure Terraform)
 
 This is a  project to deploy a wordpress on Azure with terraform.
 
