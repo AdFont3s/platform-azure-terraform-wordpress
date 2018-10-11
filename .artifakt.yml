@@ -34,7 +34,7 @@ available_regions:
  - francesouth
  - australiacentral
  - australiacentral2
-image: https://assets.artifakt.io/artifacts/logo-wordpress.png
+image: https://assets.artifakt.io/platforms/logo-wordpress.png
 category: cms
 main_language: php
 license:
@@ -46,7 +46,7 @@ tags:
   - cms
   - managed services
 infrastructure:
-  diagram: https://assets.artifakt.io/artifacts/artifact-demo-app-aws.png
+  diagram: https://assets.artifakt.io/platforms/platform-demo-app-azure.png
   build_time: 390 #seconds
   cost_estimation:
     monthly_price: 122.43  #in dollars per month
