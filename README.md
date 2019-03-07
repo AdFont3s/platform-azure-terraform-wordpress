@@ -1,8 +1,8 @@
 # Platform Wordpress (Azure Terraform)
 
-This is a  project to deploy a wordpress on Azure with terraform.
+This is a project to deploy a wordpress on Azure using Terraform.
 
-This project deploy two layers. First one, the mysql instance (which running on managed servcies) and second one, the Wordpress hosting plan.
+This project deploy two layers. First one, the MySQL instance (managed service) and second one, the Wordpress hosting plan.
 
 ## How to test it locally?
 
