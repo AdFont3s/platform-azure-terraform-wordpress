@@ -1,3 +1,3 @@
 output "main_endpoint" {
-  value = "http://${azurerm_template_deployment.website.outputs}"
+  value = "${azurerm_template_deployment.website.outputs}"
 }
