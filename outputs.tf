@@ -1,3 +1,3 @@
 output "main_endpoint" {
-  value = "${azurerm_template_deployment.website.outputs}"
+ value = "${lookup(azurerm_template_deployment.website.outputs,"fqdn")}"
 }
